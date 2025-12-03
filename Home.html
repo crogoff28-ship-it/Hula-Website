@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Style.css" />
+    <meta charset="UTF-8" />
+    <title>Images</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="mainheader">
+      <h1>Hula & Hawaii</h1>
+      <img id="logo" src="LOGO.jpg" alt="" />
+      <a href="#home">Home</a>
+      <a href="#about-us">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#events">Events</a>
+      <a href="#contact-info">Contact Info</a>
+    </div>
+
+    <div id="home" class="slider">
+      <div class="slides">
+        <div class="slide" style="background-image: url(hula.avif)"></div>
+        <div
+          class="slide"
+          style="background-image: url(dance\ sunset.webp)"
+        ></div>
+        <div class="slide" style="background-image: url(nighthula.jpg)"></div>
+        <div class="slide" style="background-image: url(oceanhula.jpg)"></div>
+        <div
+          class="slide"
+          style="background-image: url(onepersonhula.avif)"
+        ></div>
+      </div>
+
+      <div class="overlay-text">
+        <h1>Hula</h1>
+        <p>The Heartbeat Of Hawaii</p>
+      </div>
+
+      <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
+      <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+    <script src="script.js"></script>
+
+    <h2 id="about-us">About Us</h2>
+    <div id="mission">
+      <img id="kalalau" src="kalalau.webp" alt="" />
+      <div id="textmission">
+        <h2>Our Mission</h2>
+        <p>
+          Our purpose is to spread the values of hula around the islands and to
+          preserve Hawaiian culture and history through storytelling. We also
+          want to help foster a deeply connected relationship with the
+          environment and grow their ancestral knowledge. Additionally, we
+          believe hula helps promote both physical and mental well-being as it
+          helps us calm ourselves through dance. In other words, hula is an
+          expression without words that comes from the heart. Rather than a
+          traditional dance class, hula is the transfer of wisdom from kumu hula
+          (master teacher) to their haumana (students) with an equal form of
+          respect and interconnectedness with the ‘āina.
+        </p>
+      </div>
+    </div>
+    <div id="origin">
+      <div id="textorigin">
+        <h2>Origin & Background</h2>
+        <p>
+          Hula is as ancient as the Hawaiian people themselves, and many legends
+          explain its origin. Some traditions believe Laka, the navigator
+          goddess, invented hula; others state Hi’iaka created the dance for her
+          sister Pele. Some say Pele herself, the volcano and fire goddess,
+          created hula. Although many more theories and myths exist, they all
+          reflect the same idea inherent to Hawaiian culture: the art of hula
+          holds power. From storytelling, spiritual beliefs, connectedness, and
+          knowledge, hula is deeply rooted in the people of Hawaii.
+        </p>
+        <p>
+          Banning hula in 1830 by the Westerners didn't stop the Hawaiians from
+          practicing their hula in secret, but still left the Hawaiians silenced
+          and feeling powerless. King David Kalākaua restored public hula
+          performances in the late 1800s through the Merrie Monarch. For better
+          or for worse, the Hawaiian culture was changing, and therefore, new
+          hybrid styles of hula emerged. Contact with the Westerners, cultural
+          exchange, and changing Hawaiian society all play a role in the
+          evolution of Hula.
+        </p>
+        <p>
+          Over time, hula spread globally, reaching communities worldwide,
+          sharing Hawaiian traditions. It is crucial that hula remains authentic
+          to its cultural values and embodies truth, wisdom, and celebration.
+          Hula continues to evolve, carrying the stories of past generations as
+          it honors where it began.
+        </p>
+      </div>
+      <img id="past" src="pastphoto.jpeg" alt="" />
+    </div>
+    <div id="kumu">
+      <!-- Replace kalalau.webp with your video file. Two options below:
+           1) Local/hosted MP4: use the <video> tag and point the <source> src to your file path (e.g. videos/my-home-video.mp4).
+           2) Hosted service (YouTube/Vimeo): use the iframe embed example (commented out).
+      -->
+
+      <!-- Option 1: HTML5 video (preferred for local files) -->
+      <video
+        id="kumuvideo"
+        controls
+        playsinline
+        preload="metadata"
+        poster="videoposter.jpeg"
+      >
+        <source src="Hula.mo.mp4" type="video/mp4" />
+      </video>
+
+      <div id="textkumu">
+        <h2>Kumu</h2>
+        <p>
+          Kumu Naomi, a well-respected kumu hula at Hanalei School, spoke to me
+          about the humility, grace, and honor required to teach the next
+          generation of hula. To be a kumu means remaining open to learning and
+          understanding the culture and gravity of what it means to practice
+          hula. Hula itself helps foster a deeply interconnected relationship
+          with the land and culture. Hula, the Hawaiians' storytelling through
+          motion, has trudged onward due to the great kumus before us that have
+          helped the poeple everywhere connect with their culture, find a sense
+          of identity, and create a relationship with the land and nature.
+        </p>
+        <p>
+          Being a kumu requires more than a mastery of a skill, but also an
+          artistry of leadership and an ablility to guide others toward the
+          right paths. Earning the title of kumu is a noble accomplishment.
+          Kumus hold the responsibility of passing on and sharing wisdom and
+          knowledge of their own teachers while still embodying their own
+          presence.
+        </p>
+      </div>
+    </div>
+    <h1></h1>
+    <div id="collagepoem">
+      <img id="collage" src="Collage.png" alt="Collage" />
+      <div id="poem">
+        <h1>Hula And Our Heroes</h1>
+        <h2>Its roots run deep within the ‘āina,</h2>
+        <h2>Binding us to the gods and heavens.</h2>
+        <h2>Passing through our bloodlines,</h2>
+        <h2>It reminds us of our heritage</h2>
+        <h2>And the ancestors who shaped us.</h2>
+        <h2 class="space">lkjhgfd</h2>
+        <h2>Through tradition and humility,</h2>
+        <h2>Our culture is the heartbeat of the people.</h2>
+        <h2 class="space">kjhgfds</h2>
+        <h2>When our flag falls,</h2>
+        <h2>We keep silent,</h2>
+        <h2>We gather in secret,</h2>
+        <h2>Guarding our stories.</h2>
+        <h2 class="space">kjhgfds</h2>
+        <h2>When the wind grows heavy, and hope feels lost,</h2>
+        <h2>Our heroes arise</h2>
+        <h2>Clothed in capes of lei,</h2>
+        <h2>In pa’u or malo,</h2>
+        <h2>Our kumus speak the ancient stories</h2>
+        <h2>Breathing life back into the people</h2>
+      </div>
+    </div>
+
+    <!-- Services section (anchor target) -->
+    <section id="services">
+      <h2 id="servicename">Services</h2>
+
+      <div class="services-columns">
+        <!-- Column 1: Hula Classes -->
+        <div class="service-column">
+          <div
+            class="service-image-placeholder"
+            aria-hidden="true"
+            id="one"
+          ></div>
+          <h3>Hula Classes</h3>
+          <ul class="service-list">
+            <li><strong>Keiki (5–10)</strong> — $12 / class or $40 / month</li>
+            <li>
+              <strong>Keiki-Plus (11–17)</strong> — $15 / class or $55 / month
+            </li>
+            <li><strong>Adults (18+)</strong> — $20 / class or $75 / month</li>
+            <li>
+              <strong>Family Pack</strong> — $120 / month (up to 4 people)
+            </li>
+          </ul>
+          <p class="service-note">
+            Classes focus on steps, posture, and mele — beginner through
+            advanced.
+          </p>
+        </div>
+
+        <!-- Column 2: Cultural Learning -->
+        <div class="service-column">
+          <div
+            class="service-image-placeholder"
+            aria-hidden="true"
+            id="twon"
+          ></div>
+          <h3>Cultural Learning</h3>
+          <p class="service-desc">
+            Interactive lessons in Hawaiian history, language (ʻŌlelo Hawaiʻi),
+            chant (oli), and storytelling. Perfect for schools, groups, or
+            private study.
+          </p>
+          <p class="service-price">
+            <strong>Pricing:</strong> $30 / person per session or group rates
+            available.
+          </p>
+        </div>
+
+        <!-- Column 3: Day Care (Lei making + Intro to Hula) -->
+        <div class="service-column">
+          <div
+            class="service-image-placeholder"
+            aria-hidden="true"
+            id="three"
+          ></div>
+          <h3>Day Care & Workshops</h3>
+          <p class="service-desc">
+            Day-time program for young children combining lei-making, basic hula
+            introductions, and supervised cultural activities.
+          </p>
+          <ul class="service-list">
+            <li><strong>Half-day (3 hrs)</strong> — $35</li>
+            <li><strong>Full-day (6 hrs)</strong> — $60</li>
+            <li>
+              Includes materials for lei-making and a small take-home lei.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Events section (anchor target) -->
+    <section id="events">
+      <h2 id="even">Events</h2>
+
+      <div class="events-grid">
+        <article class="event-card">
+          <div class="event-date">Dec 14, 2025</div>
+          <h3 class="event-title">Hula ʻOhana Day</h3>
+          <div class="event-time">10:00 AM — 2:00 PM</div>
+          <p class="event-desc">
+            A family-friendly day of hula, mele (song), and cultural activities
+            for all ages. Bring comfortable clothes and a water bottle.
+          </p>
+        </article>
+
+        <article class="event-card">
+          <div class="event-date">Jan 10, 2026</div>
+          <h3 class="event-title">Food Gathering Registration</h3>
+          <div class="event-time">9:00 AM — 11:00 AM</div>
+          <p class="event-desc">
+            Register for the community food gathering. Sign-ups close Jan 5,
+            2026. Everyone is weclome!
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact Info (anchor target) -->
+    <section id="contact-info">
+      <h2>Contact Info</h2>
+      <p><strong>Location:</strong> Hanalei Bay</p>
+      <p><strong>Phone:</strong> <a href="tel:8086220875">(808) 622-0875</a></p>
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:contact@hulaandhawaii.com">contact@hulaandhawaii.com</a>
+      </p>
+      <p>
+        <strong>Contact form:</strong>
+        <a href="#contact-form">Register / Send a message</a>
+      </p>
+    </section>
+
+    <!-- Footer with social buttons (fake links) -->
+    <footer class="social-footer">
+      <div class="social-actions">
+        <a class="social-btn instagram" href="#" aria-label="Instagram"
+          >Instagram</a
+        >
+        <a class="social-btn facebook" href="#" aria-label="Facebook"
+          >Facebook</a
+        >
+        <a class="social-btn tiktok" href="#" aria-label="TikTok">TikTok</a>
+      </div>
+      <div class="copyright">© Hula & Hawaii</div>
+    </footer>
+  </body>
+</html>
